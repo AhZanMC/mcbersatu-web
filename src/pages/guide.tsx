@@ -66,64 +66,67 @@ const Guide = () => {
               <section className='w-full h-full mt-14
                                       dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
-                  <div className='dp:flex lp:flex tb:block mb:block mx-auto gap-14 items-start
-                                  dp:w-auto lp:w-auto tb:w-[80%] mb:w-auto
-                                  dp:justify-between lp:justify-between tb:justify-center mb:justify-center'>
+                    <div className='dp:flex lp:flex tb:block mb:block mx-auto gap-14 items-start
+                                    dp:w-[auto] lp:w-auto tb:w-[80%] mb:w-auto
+                                    dp:justify-between lp:justify-between tb:justify-center mb:justify-center'>
 
-                      <p className="text-white text-sm font-normal text-justify my-0
-                                      dp:w-[50%] lp:w-[50%] tb:w-auto mb:w-auto">
-                          Setiap tanggal 17 Agustus, Indonesia merayakan hari kemerdekaannya, ini
-                          adalah momen penting yang diperingati dengan kebanggaan dan semangat
-                          patriotisme di seluruh negeri.
-                          <br></br><br></br>
-                          Dalam rangka untuk memperingati hari bersejarah ini, Minecrafter Bersatu
-                          dipelopori sebagai cara untuk merayakan, sekaligus mempromosikan persatuan
-                          dan kesatuan di antara berbagai komunitas Minecraft yang ada di Indonesia.
-                          <br></br><br></br>
-                          Minecrafter bersatu diinisiasikan oleh komunitas MinecraftID dan Minecraft
-                          Sejati, dan diikutsertakan berbagai komunitas Minecraft dari seluruh Indonesia.
-                          Acara ini bertujuan untuk menciptakan kesempatan bagi para pemain untuk
-                          berinteraksi, berkolaborasi, berkompetisi, dan saling mengenal satu sama lain.
-                      </p>
+                        <p className="text-white text-sm font-normal text-justify my-0
+                                        dp:w-[50%] lp:w-[50%] tb:w-auto mb:w-auto">
+                            
+                            Dalam Acara Minecrafter Bersatu, akan terdapat 2 (dua) jenis perlombaan yang diselenggarakan, 
+                            yaitu Perlombaan Minigames dan Perlombaan Karya. Selain itu, terdapat Server Exhibition yang 
+                            akan dibuka sebelum dan saat perlombaan berlangsung. Peserta yang mampu meraih peringkat juara 
+                            akan mendapatkan hadiah sesuai dengan lomba yang diikuti dan peringkat yang didapatkan.
+                            
+                        </p>
+                        
+                    </div>
 
-                      <p className="text-white text-sm font-normal text-justify my-0
-                                      dp:w-[50%] lp:w-[50%] tb:w-auto mb:w-auto">
-                          Minecrafter Bersatu adalah acara perayaan yang istimewa untuk merayakan
-                          hari kemerdekaan Indonesia, dirancang khusus untuk komunitas Minecraft di tanah
-                          air. Acara ini terdiri dari cabang perlombaan minigames dan perlombaan karya.
-                          <br></br><br></br>
-                          Salah satu highlight acara adalah kompetisi yang berbentuk tim, dimana
-                          peserta diajak untuk membentuk rasa gotong royong dan juga kerjasama agar
-                          dapat mencapai kemenangan. Acara ini dilaksanakan secara online/dalam jaringan
-                          (daring), melalui platform video game Minecraft dan platform komunikasi Discord.
-                      </p>
-                      
-                  </div>
+                    <div className='py-14 mt-14 flex justify-around mx-auto gap-x-8
+                                    dp:flex-row lp:flex-row tb:flex-col mb:flex-col
+                                    dp:w-auto lp:w-auto tb:w-[80%] mb:w-auto'>
 
-                  <div className='py-14'>
+                        <h3 className='text-white text-4xl font-bold'>Pendaftaran</h3>
+                        <p className="text-white text-sm font-normal text-justify
+                                        dp:w-[40%] lp:w-[50%] tb:w-auto mb:w-auto">
+                            1. Acara ini bertujuan untuk merayakan Hari Kemerdekaan Indonesia dengan cara yang unik dan kreatif, melibatkan 
+                            komunitas Minecraft dalam sebuah perayaan yang menghormati sejarah dan persatuan nasional.
+                            <br></br><br></br>
+                            2. Acara ini dimaksudkan untuk menyatukan berbagai komunitas Minecraft yang ada di Indonesia, dari berbagai daerah dan 
+                            latar belakang, dengan tujuan membangun solidaritas dan persatuan di antara para pemain.
+                            <br></br><br></br>
+                            3. Acara ini diharapkan dapat menginspirasi semua pihak yang terlibat untuk berkolaborasi, bertukar ide, dan 
+                            mengekspresikan kemampuan mereka dalam lingkungan yang positif dan mendukung.
+                            <br></br><br></br>
+                            4. Dengan menyelenggarakan acara seperti Minecraft Bersatu, diharapkan akan tercipta sebuah komunitas yang lebih kuat 
+                            dan berkelanjutan di dalam dunia Minecraft, di mana nilai-nilai persahabatan, kerjasama, dan rasa bangga 
+                            akan terus ditanamkan dan dirayakan.
+                        </p>
 
-                      <h3 className='text-white text-4xl font-bold ml-[5%]'>Tujuan</h3>
-                      <p className="text-white text-sm font-normal my-8
-                                      dp:w-[50%] lp:w-[50%] tb:w-auto mb:w-auto">
-                          1. Acara ini bertujuan untuk merayakan Hari Kemerdekaan Indonesia dengan
-                          cara yang unik dan kreatif, melibatkan komunitas Minecraft dalam sebuah
-                          perayaan yang menghormati sejarah dan persatuan nasional.
-                          <br></br><br></br>
-                          2.Acara ini dimaksudkan untuk menyatukan berbagai komunitas Minecraft
-                          yang ada di Indonesia, dari berbagai daerah dan latar belakang, dengan
-                          tujuan membangun solidaritas dan persatuan di antara para pemain.
-                          <br></br><br></br>
-                          3.Acara ini diharapkan dapat menginspirasi para pemain untuk berkolaborasi,
-                          bertukar ide, dan mengekspresikan kemampuan mereka dalam lingkungan
-                          yang positif dan mendukung.
-                          <br></br><br></br>
-                          4.Dengan menyelenggarakan acara seperti Minecraft Bersatu, diharapkan akan
-                          tercipta sebuah komunitas yang lebih kuat dan berkelanjutan di dalam dunia
-                          Minecraft, di mana nilai-nilai persahabatan, kerjasama, dan rasa bangga akan
-                          terus ditanamkan dan dirayakan.
-                      </p>
+                    </div>
 
-                  </div>
+                    <div className='py-14 flex justify-around mx-auto gap-x-8
+                                    dp:flex-row lp:flex-row tb:flex-col mb:flex-col
+                                    dp:w-auto lp:w-auto tb:w-[80%] mb:w-auto'>
+
+                        <h3 className='text-white text-4xl font-bold'>Perlombaan</h3>
+                        <p className="text-white text-sm font-normal text-justify
+                                        dp:w-[40%] lp:w-[50%] tb:w-auto mb:w-auto">
+                            1. Acara ini bertujuan untuk merayakan Hari Kemerdekaan Indonesia dengan cara yang unik dan kreatif, melibatkan 
+                            komunitas Minecraft dalam sebuah perayaan yang menghormati sejarah dan persatuan nasional.
+                            <br></br><br></br>
+                            2. Acara ini dimaksudkan untuk menyatukan berbagai komunitas Minecraft yang ada di Indonesia, dari berbagai daerah dan 
+                            latar belakang, dengan tujuan membangun solidaritas dan persatuan di antara para pemain.
+                            <br></br><br></br>
+                            3. Acara ini diharapkan dapat menginspirasi semua pihak yang terlibat untuk berkolaborasi, bertukar ide, dan 
+                            mengekspresikan kemampuan mereka dalam lingkungan yang positif dan mendukung.
+                            <br></br><br></br>
+                            4. Dengan menyelenggarakan acara seperti Minecraft Bersatu, diharapkan akan tercipta sebuah komunitas yang lebih kuat 
+                            dan berkelanjutan di dalam dunia Minecraft, di mana nilai-nilai persahabatan, kerjasama, dan rasa bangga 
+                            akan terus ditanamkan dan dirayakan.
+                        </p>
+
+                    </div>
                                           
               </section>
 

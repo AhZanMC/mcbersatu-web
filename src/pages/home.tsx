@@ -59,13 +59,13 @@ const Home = () => {
                 {/* Section 1 */}
                 <section className='w-full h-full bg-left-top bg-no-repeat bg-cover
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6 |
-                                    dp:pt-[60vh] lp:pt-[60vh] tb:pt-[55vh] mb:pt-[40vh] |
+                                    dp:pt-[65vh] lp:pt-[60vh] tb:pt-[55vh] mb:pt-[40vh] |
                                     dp:pb-[25vh] lp:pb-[25vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                     style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
                     <div className='flex justify-between dp:flex-row lp:flex-row tb:flex-col mb:flex-col align-center' uk-parallax="y: 0%, -100%">
 
-                        <div className='dp:w-[35%] lp:w-[35%] tb:w-[70%] mb:w-[70%] h-auto flex gap-8  
+                        <div className='dp:w-[25%] lp:w-[35%] tb:w-[70%] mb:w-[70%] h-auto flex gap-8  
                                     mb-[5vh] items-center'>
 
                             <img src="/mcb.png" alt="MCB-Logo" title='Minecrafter Bersatu' className='dp:block lp:block tb:block mb:hidden h-[60px] w-auto'/>
@@ -77,7 +77,7 @@ const Home = () => {
 
                         </div>
 
-                        <div className='dp:w-[45%] lp:w-[45%] tb:w-[80%] mb:w-[100%] | 
+                        <div className='dp:w-[35%] lp:w-[45%] tb:w-[80%] mb:w-[100%] | 
                                         h-auto | block | dp:mx-0 lp:mx-0 tb:mx-auto mb:mx-auto | 
                                         bg-[#871015]/70 px-7 py-5 rounded-[30px]'>
 
@@ -110,7 +110,7 @@ const Home = () => {
 
                     <img src="/mcb-pattern.png" className='absolute z-10 scale-150 h-[25vh] object-cover 
                                                             dp:-top-[18vh] lp:-top-[18vh] tb:-top-[18vh] mb:-top-[10vh]' 
-                                                uk-parallax="x: -40%, 100%" />
+                                                uk-parallax="x: -40%, 10%" />
                     
                     <div className='relative w-full h-[70vh]'>
                         <video
@@ -122,7 +122,7 @@ const Home = () => {
                         ></video>
                         <div
                             style={{ fontFamily: 'LatoBlack, sans-serif' }}
-                            className="absolute inset-0 flex justify-center items-center text-white text-4xl font-black text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
+                            className="absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-black text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
                         >
                             #MCBERSATU 2024
                         </div>
@@ -139,7 +139,7 @@ const Home = () => {
                                     dp:justify-between lp:justify-between tb:justify-between mb:justify-center'>
 
                         <h3 style={{ fontFamily: 'LatoBlack, sans-serif' }} className='text-white text-4xl font-bold mx-auto mb-8 
-                                                                                        dp:w-[30%] lp:w-[30%] tb:w-[30%] mb:w-[80%]'>Linimasa dan Susunan Acara</h3>
+                                                                                        dp:w-[20%] lp:w-[30%] tb:w-[30%] mb:w-[80%]'>Linimasa dan Susunan Acara</h3>
 
                         <Tabs />
 
@@ -156,7 +156,8 @@ const Home = () => {
 
                         <h3 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="text-white text-center text-4xl font-bold mb-8">Rayakan Hari Kemerdekaan Bersama</h3>
 
-                        <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="w-[80%] mx-auto text-white text-center text-sm">
+                        <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="mx-auto text-white text-center text-sm
+                                                                                        dp:w-[60%] lp:w-[80%] tb:w-[80%] mb:w-[100%]">
                             Hai, Minecrafter! Mari kita meriahkan perayaan hari Kemerdekaan Indonesia yang ke-79 tahun ini dengan kreativitas dan semangat juang! 
                             Kami mengundang kalian untuk berpartisipasi dalam acara Minecraft Bersatu 2024 untuk merayakan hari Kemerdekaan RI.</p>
 
@@ -186,7 +187,7 @@ const Home = () => {
 
                     </div>
                     
-                    <div className='grid grid-cols-3 gap-8 content-start py-14 h-auto
+                    <div className='grid gap-8 gap-y-24 content-start py-14 h-auto
                                     dp:grid-cols-2 lp:grid-cols-2 tb:grid-cols-1 mb:grid-cols-1'>
 
                         <div>
@@ -195,8 +196,8 @@ const Home = () => {
                             <div className='flex justify-center'>
 
                                 <div>
-                                    <a href="">
-                                        <img src="" alt="" />
+                                    <a href="https://s.id/HikaruStudioMedia" className="shrink-0 w-auto" uk-tooltip="title: Hikaru Studio; pos: bottom">
+                                        <img src="public/logos/partner/hikaru.png" className="h-28 mx-12" />
                                     </a>
                                 </div>
 
@@ -209,18 +210,20 @@ const Home = () => {
                             <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>Event Partner</h5>
                             <div className='flex justify-center'>
 
-                                <div>
-                                    <a href="">
-                                        <img src="" alt="" />
+                                <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
+
+                                    <a href="" className="shrink-0 w-auto" uk-tooltip="title: Sirkel Friends; pos: bottom">
+                                        <img src="public/logos/partner/sirkelfren.png" className="h-28" />
                                     </a>
 
-                                    <a href="">
-                                        <img src="" alt="" />
+                                    <a href="https://invious.studio/" className="shrink-0 w-auto" uk-tooltip="title: Invious Visuals; pos: bottom">
+                                        <img src="public/logos/partner/invious.png" className="h-28" />
                                     </a>
 
-                                    <a href="">
-                                        <img src="" alt="" />
+                                    <a href="https://instagram.com/dreamlight.creative/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
+                                        <img src="public/logos/partner/dreamlightedu.png" className="h-28" />
                                     </a>
+
                                 </div>
 
                             </div>
@@ -232,18 +235,20 @@ const Home = () => {
                             <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
                             <div className='flex justify-center'>
 
-                                <div>
-                                    <a href="">
-                                        <img src="" alt="" />
+                                <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
+                                    
+                                    <a href="https://mcsejati.site/news" className="shrink-0 w-auto" uk-tooltip="title: Warta Minecraft; pos: bottom">
+                                        <img src="public/logos/partner/wartamc.png" className="h-28" />
                                     </a>
 
-                                    <a href="">
-                                        <img src="" alt="" />
+                                    <a href="https://neoteric.eu.org/discord" className="shrink-0 w-auto" uk-tooltip="title: NTC Department; pos: bottom">
+                                        <img src="public/logos/partner/neoteric.png" className="h-28" />
                                     </a>
 
-                                    <a href="">
-                                        <img src="" alt="" />
+                                    <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
+                                        <img src="public/logos/placeholder.png" className="h-28" />
                                     </a>
+
                                 </div>
 
                             </div>
@@ -256,8 +261,8 @@ const Home = () => {
                             <div className='flex justify-center'>
 
                                 <div>
-                                    <a href="">
-                                        <img src="" alt="" />
+                                    <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
+                                        <img src="public/logos/placeholder.png" className="h-28" />
                                     </a>
                                 </div>
 
@@ -271,7 +276,7 @@ const Home = () => {
 
 
                 {/* Section 6 */}
-                <section className='w-full h-full mt-14
+                <section className='w-full h-full mt-32
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
                     <div>
@@ -319,3 +324,6 @@ const Home = () => {
 }
 
 export default Home
+
+
+
