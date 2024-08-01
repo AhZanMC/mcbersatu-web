@@ -9,6 +9,8 @@ import "../assets/fonts/fonts.css";
 import "../assets/fonts/Lato/Lato-Regular.ttf"
 import "../assets/fonts/Lato/Lato-Black.ttf"
 import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
+import "../assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons.ttf"
+import "../assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf"
 
 
 
@@ -212,15 +214,15 @@ const Home = () => {
 
                                 <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
 
-                                    <a href="" className="shrink-0 w-auto" uk-tooltip="title: Sirkel Friends; pos: bottom">
+                                    <a href="https://www.instagram.com/sirkel.friendss/" className="shrink-0 w-auto" uk-tooltip="title: Sirkel Friends; pos: bottom">
                                         <img src="public/logos/partner/sirkelfren.png" className="h-28" />
                                     </a>
 
-                                    <a href="https://invious.studio/" className="shrink-0 w-auto" uk-tooltip="title: Invious Visuals; pos: bottom">
+                                    <a href="https://invs.studio/" className="shrink-0 w-auto" uk-tooltip="title: Invious Visuals; pos: bottom">
                                         <img src="public/logos/partner/invious.png" className="h-28" />
                                     </a>
 
-                                    <a href="https://instagram.com/dreamlight.creative/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
+                                    <a href="https://www.instagram.com/dreamlightedu/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
                                         <img src="public/logos/partner/dreamlightedu.png" className="h-28" />
                                     </a>
 

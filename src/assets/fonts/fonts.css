@@ -2,13 +2,19 @@
     font-family: "LatoRegular";
     src:local("Lato-Regular"),
         url('./assets/fonts/Lato/Lato-Regular.ttf')
-  }
+}
 
-  @font-face{
+@font-face{
     font-family: "LatoBlack";
     src:local("Lato-Black"),
         url('./assets/fonts/Lato/Lato-Black.ttf')
-  }
+}
+
+@font-face{
+    font-family: "MinecraftDungeons";
+    src:local("Minecraft-Dungeons"),
+        url('./assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons.ttf')
+}
 
 @font-face{
     font-family: "MinecraftFive";
@@ -33,3 +39,6 @@
     src:local("OpenSans-Regular"),
         url('./assets/fonts/Open_Sans/static/OpenSans-Regular.ttf')
 }
+
+
+

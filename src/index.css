@@ -158,17 +158,7 @@
     color: #d9d9d9;
   }
 
-  .sticky-element {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 3.5rem;
-  }
 
-  .sticky-bottom {
-    position: absolute;
-    bottom: 0;
-    top: auto;
-  }
 
 
 

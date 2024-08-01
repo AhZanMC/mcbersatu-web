@@ -6,6 +6,7 @@ import "../assets/fonts/fonts.css";
 import "../assets/fonts/Lato/Lato-Regular.ttf"
 import "../assets/fonts/Lato/Lato-Black.ttf"
 import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
+import "../assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf"
 
 
 
