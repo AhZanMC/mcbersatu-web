@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # mcbersatu-web
 Program aplikasi situs web resmi Minecrafter Bersatu
 =======
