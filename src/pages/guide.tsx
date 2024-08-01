@@ -56,9 +56,9 @@ const Guide = () => {
                                         dp:pb-[45vh] lp:pb-[45vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                         style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
-                        <h1 className="w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
-                                PANDUAN MINECRAFTER BERSATU
-                            </h1>
+                        <h1 style={{ fontFamily: 'MinecraftFive' }} className="w-[20%] ml-[5%] text-white font-normal text-4xl text-left">
+                            PANDUAN MINECRAFTER BERSATU
+                        </h1>
 
                 </section>
 
@@ -95,7 +95,7 @@ const Guide = () => {
                                 Minecraft melalui server. Peserta akan mendaftar sebagai tim berisi 4 (empat) orang dan berlomba untuk mendapatkan 
                                 skor tim tertinggi untuk memenangkan perlombaan bersama.
                                 <br></br><br></br>
-                                Mode permainan : Tim (1 Tim berisi 4 Peserta)<br></br>
+                                Mode permainan : Tim (1 Tim terdiri dari 4 Peserta)<br></br>
                                 Sistem permainan : Akumulasi Poin Tim; Tim dengan poin akumulasi tertinggi dari seluruh permainan akan menjadi 
                                 pemenang dalam lomba.
                             </p>
@@ -153,3 +153,7 @@ const Guide = () => {
 }
 
 export default Guide
+
+
+
+

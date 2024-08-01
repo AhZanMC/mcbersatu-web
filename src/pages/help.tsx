@@ -57,14 +57,17 @@ const Help = () => {
                                     dp:pt-[50vh] lp:pt-[50vh] tb:pt-[55vh] mb:pt-[40vh] |
                                     dp:pb-[45vh] lp:pb-[45vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                     style={{ backgroundImage: `url("/mcb-bg.png")` }}>
-                    <h1 className="w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
+
+                    <h1 style={{ fontFamily: 'MinecraftFive' }} className="w-[20%] ml-[5%] text-white font-normal text-4xl text-left">
                         BANTUAN MINECRAFTER BERSATU
                     </h1>
+
                 </section>
 
 
                 {/* Section 2 */}
                 <StickySection/>
+
 
                 {/* Section 3 */}
                 <section className='w-full h-full mt-40
@@ -116,3 +119,6 @@ const Help = () => {
 }
 
 export default Help;
+
+
+

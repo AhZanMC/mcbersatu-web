@@ -9,7 +9,8 @@ import "../assets/fonts/fonts.css";
 import "../assets/fonts/Lato/Lato-Regular.ttf"
 import "../assets/fonts/Lato/Lato-Black.ttf"
 import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
-import "../assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons.ttf"
+import "../assets/fonts/Minecraft/Minecraft-Font.ttf"
+import "../assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons-Improved.ttf"
 import "../assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf"
 
 
@@ -62,7 +63,7 @@ const Home = () => {
                 <section className='w-full h-full bg-left-top bg-no-repeat bg-cover
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6 |
                                     dp:pt-[65vh] lp:pt-[60vh] tb:pt-[55vh] mb:pt-[40vh] |
-                                    dp:pb-[25vh] lp:pb-[25vh] tb:pb-[15vh] mb:pb-[5vh]' 
+                                    dp:pb-[25vh] lp:pb-[24vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                     style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
                     <div className='flex justify-between dp:flex-row lp:flex-row tb:flex-col mb:flex-col align-center' uk-parallax="y: 0%, -100%">
@@ -123,7 +124,7 @@ const Home = () => {
                             className="w-full h-full object-cover shadow-[4px_3px_10px_3px_rgba(0,0,0,0.3)] opacity-70"
                         ></video>
                         <div
-                            style={{ fontFamily: 'LatoBlack, sans-serif' }}
+                            style={{ fontFamily: 'Minecraft' }}
                             className="absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-black text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
                         >
                             #MCBERSATU 2024
@@ -326,6 +327,3 @@ const Home = () => {
 }
 
 export default Home
-
-
-

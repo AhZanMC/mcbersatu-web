@@ -11,9 +11,15 @@
 }
 
 @font-face{
+    font-family: "Minecraft";
+    src:local("Minecraft"),
+        url('./assets/fonts/Minecraft/Minecraft-Font.ttf')
+}
+
+@font-face{
     font-family: "MinecraftDungeons";
     src:local("Minecraft-Dungeons"),
-        url('./assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons.ttf')
+        url('./assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons-Improved.ttf')
 }
 
 @font-face{
@@ -39,6 +45,5 @@
     src:local("OpenSans-Regular"),
         url('./assets/fonts/Open_Sans/static/OpenSans-Regular.ttf')
 }
-
 
 

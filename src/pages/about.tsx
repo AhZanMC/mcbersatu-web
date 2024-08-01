@@ -56,9 +56,9 @@ const About = () => {
                                         dp:pb-[45vh] lp:pb-[45vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                         style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
-                        <h1 className="w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
-                                MENGAPA MINECRAFTER BERSATU?
-                            </h1>
+                        <h1 style={{ fontFamily: 'MinecraftFive' }} className="w-[20%] ml-[5%] text-white font-normal text-4xl text-left">
+                            MENGAPA MINECRAFTER BERSATU?
+                        </h1>
 
                 </section>
 
@@ -103,7 +103,7 @@ const About = () => {
                         
                     </div>
 
-                    <div className='py-14 mt-14 flex justify-around mx-auto gap-x-8
+                    <div className='py-14 mt-14 flex justify-around mx-auto gap-8
                                     dp:flex-row lp:flex-row tb:flex-col mb:flex-col
                                     dp:w-auto lp:w-auto tb:w-[80%] mb:w-auto'>
 
@@ -159,3 +159,6 @@ const About = () => {
 }
 
 export default About
+
+
+
