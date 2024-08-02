@@ -188,7 +188,7 @@ const Home = () => {
 
                                 <div>
                                     <a href="https://s.id/HikaruStudioMedia" className="shrink-0 w-auto" uk-tooltip="title: Hikaru Studio; pos: bottom">
-                                        <img src="public/logos/partner/hikaru.png" className="h-28 mx-12" />
+                                        <img src="../../public/logos/partner/hikaru.png" className="h-28 mx-12" />
                                     </a>
                                 </div>
 
@@ -201,18 +201,18 @@ const Home = () => {
                             <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Event Partner</h5>
                             <div className='flex justify-center'>
 
-                                <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
+                                <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
 
                                     <a href="https://www.instagram.com/sirkel.friendss/" className="shrink-0 w-auto" uk-tooltip="title: Sirkel Friends; pos: bottom">
-                                        <img src="public/logos/partner/sirkelfren.png" className="h-28" />
+                                        <img src="./public/logos/partner/sirkelfren.png" className="h-28" />
                                     </a>
 
                                     <a href="https://invs.studio/" className="shrink-0 w-auto" uk-tooltip="title: Invious Visuals; pos: bottom">
-                                        <img src="public/logos/partner/invious.png" className="h-28" />
+                                        <img src="./public/logos/partner/invious.png" className="h-28" />
                                     </a>
 
                                     <a href="https://www.instagram.com/dreamlightedu/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
-                                        <img src="public/logos/partner/dreamlightedu.png" className="h-28" />
+                                        <img src="./public/logos/partner/dreamlightedu.png" className="h-28" />
                                     </a>
 
                                 </div>
@@ -226,18 +226,18 @@ const Home = () => {
                             <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
                             <div className='flex justify-center'>
 
-                                <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
+                                <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
                                     
                                     <a href="https://mcsejati.site/news" className="shrink-0 w-auto" uk-tooltip="title: Warta Minecraft; pos: bottom">
-                                        <img src="public/logos/partner/wartamc.png" className="h-28" />
+                                        <img src="./public/logos/partner/wartamc.png" className="h-28" />
                                     </a>
 
                                     <a href="https://neoteric.eu.org/discord" className="shrink-0 w-auto" uk-tooltip="title: NTC Department; pos: bottom">
-                                        <img src="public/logos/partner/neoteric.png" className="h-28" />
+                                        <img src="./public/logos/partner/neoteric.png" className="h-28" />
                                     </a>
 
                                     <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
-                                        <img src="public/logos/placeholder.png" className="h-28" />
+                                        <img src="./public/logos/placeholder.png" className="h-28" />
                                     </a>
 
                                 </div>
@@ -253,7 +253,7 @@ const Home = () => {
 
                                 <div>
                                     <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
-                                        <img src="public/logos/placeholder.png" className="h-28" />
+                                        <img src="./public/logos/placeholder.png" className="h-28" />
                                     </a>
                                 </div>
 
