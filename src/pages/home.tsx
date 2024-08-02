@@ -238,7 +238,7 @@ const Home = () => {
                                     </a>
 
                                     <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
-                                        <img src="./public/logos/placeholder.png" className="h-28" />
+                                        <img src={getImage('../../public/logos', 'placeholder', 'png')} className="h-28" />
                                     </a>
 
                                 </div>
