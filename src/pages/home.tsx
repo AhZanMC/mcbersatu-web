@@ -3,6 +3,7 @@ import NavMenu from "../components/navmenu"
 import Countdown from "../components/countdown"
 import Tabs from '../components/tabs'
 import Marquee from '../components/marquee'
+import getImage from '../utils/getImage';
 
 
 
@@ -188,7 +189,7 @@ const Home = () => {
 
                                 <div>
                                     <a href="https://s.id/HikaruStudioMedia" className="shrink-0 w-auto" uk-tooltip="title: Hikaru Studio; pos: bottom">
-                                        <img src="../../public/logos/partner/hikaru.png" className="h-28 mx-12" />
+                                        <img src={getImage('../../public/logos/partner', 'hikaru', 'png')} className="h-28 mx-12" />
                                     </a>
                                 </div>
 
