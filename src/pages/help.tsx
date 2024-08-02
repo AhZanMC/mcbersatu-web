@@ -2,14 +2,6 @@ import { useState, useEffect } from 'react';
 import NavMenu from "../components/navmenu"
 import StickySection from "../components/stickyfaq"
 
-//import font
-import "../assets/fonts/fonts.css";
-import "../assets/fonts/Lato/Lato-Regular.ttf"
-import "../assets/fonts/Lato/Lato-Black.ttf"
-import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
-import "../assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf"
-
-
 
 const Help = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -35,7 +27,7 @@ const Help = () => {
     };
 
     return (
-        <body style={{ fontFamily: 'OpenSansRegular, sans-serif' }} className="h-auto min-h-screen w-screen relative bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
+        <div className="open-sans h-auto min-h-screen w-screen relative bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
             
 
             {/* Navbar */}
@@ -58,7 +50,7 @@ const Help = () => {
                                     dp:pb-[45vh] lp:pb-[45vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                     style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
-                    <h1 style={{ fontFamily: 'MinecraftFive' }} className="w-[20%] ml-[5%] text-white font-normal text-4xl text-left">
+                    <h1 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
                         BANTUAN MINECRAFTER BERSATU
                     </h1>
 
@@ -109,16 +101,12 @@ const Help = () => {
                     <a href="https://www.x.com/mcbersatu/" uk-icon="icon: x; ratio: 1.5"></a>
                 </div>
 
-                <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="text-white text-center font-extralight text-xs">
-                    Proudly presented by &copy; Minecrafter Bersatu.
-                </p>
+                <p className="text-white text-center font-extralight text-xs">Proudly presented by &copy; Minecrafter Bersatu.</p>
             </footer>
             
-        </body>
+        </div>
     );
 }
 
 export default Help;
-
-
 

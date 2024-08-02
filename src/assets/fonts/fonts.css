@@ -1,49 +1,49 @@
 @font-face{
     font-family: "LatoRegular";
     src:local("Lato-Regular"),
-        url('./assets/fonts/Lato/Lato-Regular.ttf')
+        url('./assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "LatoBlack";
     src:local("Lato-Black"),
-        url('./assets/fonts/Lato/Lato-Black.ttf')
+        url('./assets/fonts/Lato/Lato-Black.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "Minecraft";
     src:local("Minecraft"),
-        url('./assets/fonts/Minecraft/Minecraft-Font.ttf')
+        url('./assets/fonts/Minecraft/Minecraft-Font.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "MinecraftDungeons";
     src:local("Minecraft-Dungeons"),
-        url('./assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons-Improved.ttf')
+        url('./assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons-Improved.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "MinecraftFive";
     src:local("MinecraftFive-Bold"),
-        url('./assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf')
+        url('./assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "Dorsa";
     src:local("Dorsa-Regular"),
-        url('./assets/fonts/Dorsa/Dorsa-Regular.ttf')
+        url('./assets/fonts/Dorsa/Dorsa-Regular.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "DroidSans";
     src:local("DroidSans-4Eg4"),
-        url('./assets/fonts/Droid_Sans/DroidSans-4Eg4.ttf')
+        url('./assets/fonts/Droid_Sans/DroidSans-4Eg4.ttf') format('truetype');
 }
 
 @font-face{
     font-family: "OpenSans";
     src:local("OpenSans-Regular"),
-        url('./assets/fonts/Open_Sans/static/OpenSans-Regular.ttf')
+        url('./assets/fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
 }
 
 

@@ -66,6 +66,49 @@
   }
 }
 
+
+
+/* Font family style */
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.minecraft-font {
+  font-family: 'Minecraft', sans-serif;
+}
+
+.minecraft-dungeons {
+  font-family: 'MinecraftDungeons', sans-serif;
+}
+
+.minecraft-five {
+  font-family: 'MinecraftFive', sans-serif;
+}
+
+.dorsa {
+  font-family: "Dorsa", sans-serif;
+  font-style: normal;
+}
+
+.droid-sans {
+  font-family: 'DroidSans', sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* Marquee effect style */
 @keyframes marquee {
   0% {
     transform: translateX(-20%);
@@ -130,6 +173,7 @@
 
 
 
+  /* Hide scrollbar */
   body, html {
     overflow-x: hidden;
     scrollbar-width: none;
@@ -139,6 +183,9 @@
     display: none;
   }
 
+
+
+  /* UIKit element style */
   .uk-tab > li {
   border-bottom: 1px solid #d9d9d9;
   }
@@ -157,8 +204,6 @@
   .uk-accordion-title:hover {
     color: #d9d9d9;
   }
-
-
 
 
 

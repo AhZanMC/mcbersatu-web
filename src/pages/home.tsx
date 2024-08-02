@@ -4,15 +4,6 @@ import Countdown from "../components/countdown"
 import Tabs from '../components/tabs'
 import Marquee from '../components/marquee'
 
-// import font
-import "../assets/fonts/fonts.css";
-import "../assets/fonts/Lato/Lato-Regular.ttf"
-import "../assets/fonts/Lato/Lato-Black.ttf"
-import "../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf"
-import "../assets/fonts/Minecraft/Minecraft-Font.ttf"
-import "../assets/fonts/Minecraft_Dungeons/Minecraft-Dungeons-Improved.ttf"
-import "../assets/fonts/MinecraftFive_Bold/MinecraftFive-Bold.ttf"
-
 
 
 const Home = () => {
@@ -43,7 +34,7 @@ const Home = () => {
 
     
     return (
-        <body style={{ fontFamily: 'OpenSansRegular, sans-serif' }} className="h-auto w-screen bg-cover bg-scroll bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
+        <div className="open-sans h-auto w-screen bg-cover bg-scroll bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
             
 
             {/* Navbar */}
@@ -71,7 +62,7 @@ const Home = () => {
                         <div className='dp:w-[25%] lp:w-[35%] tb:w-[70%] mb:w-[70%] h-auto flex gap-8  
                                     mb-[5vh] items-center'>
 
-                            <img src="/mcb.png" alt="MCB-Logo" title='Minecrafter Bersatu' className='dp:block lp:block tb:block mb:hidden h-[60px] w-auto'/>
+                            <img src="/mcb.png" alt="MCB-Logo" title='Minecrafter Bersatu' className='minecraft-five dp:block lp:block tb:block mb:hidden h-[60px] w-auto'/>
                             
                             <p className='text-white text-sm text-left text-pretty hyphens-auto'>
                                 Minecrafter Bersatu adalah acara kolaborasi antar komunitas Minecraft se-Indonesia!
@@ -85,14 +76,13 @@ const Home = () => {
                                         bg-[#871015]/70 px-7 py-5 rounded-[30px]'>
 
                             <div className='dp:block lp:block tb:block mb:flex justify-between items-end text-white text-right right-0'>
-                                <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-3xl my-0 font-bold'>Vol.2</p>
+                                <p className='lato-regular text-3xl my-0 font-bold'>Vol.2</p>
                                 <p className='text-base my-0'>24 Agustus 2024</p>
                             </div>
 
                             <Countdown targetDate={new Date('2024-08-24T15:45:00')} />
                             
-                            <button style={{ fontFamily: 'LatoRegular, sans-serif' }} 
-                                    className='text-white text-center text-xs p-auto h-9 dp:w-[30%] lp:w-[30%] tb:w-[25%] mb:w-[50%] border border-white rounded-[30px] 
+                            <button className='lato-regular text-white text-center text-xs p-auto h-9 dp:w-[30%] lp:w-[30%] tb:w-[25%] mb:w-[50%] border border-white rounded-[30px] 
                                             dp:mr-0 lp:mr-0 tb:mr-0 mb:mr-1/2 mb:mx-auto block | mb-4 hover:text-white/40 focus:opacity-40 
                                             dp:-mt-4 lp:-mt-4 tb:-mt-4 mb:mt-0 shrink transition-all duration-300'
                                     onClick={handleClick}
@@ -124,8 +114,7 @@ const Home = () => {
                             className="w-full h-full object-cover shadow-[4px_3px_10px_3px_rgba(0,0,0,0.3)] opacity-70"
                         ></video>
                         <div
-                            style={{ fontFamily: 'Minecraft' }}
-                            className="absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-black text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
+                            className="minecraft-font absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-black text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
                         >
                             #MCBERSATU 2024
                         </div>
@@ -141,7 +130,7 @@ const Home = () => {
                     <div className='flex dp:flex-row lp:flex-row tb:flex-row mb:flex-col py-14
                                     dp:justify-between lp:justify-between tb:justify-between mb:justify-center'>
 
-                        <h3 style={{ fontFamily: 'LatoBlack, sans-serif' }} className='text-white text-4xl font-bold mx-auto mb-8 
+                        <h3 className='lato-black text-white text-4xl font-bold mx-auto mb-8 
                                                                                         dp:w-[20%] lp:w-[30%] tb:w-[30%] mb:w-[80%]'>Linimasa dan Susunan Acara</h3>
 
                         <Tabs />
@@ -157,22 +146,21 @@ const Home = () => {
                     <div className="uk-card uk-card-body items-center bg-[#871015]/70 h-auto 
                                     border-[5px] border-t-[#790000] border-r-[#790000] border-b-[#ED1C24] border-l-[#ED1C24]">
 
-                        <h3 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="text-white text-center text-4xl font-bold mb-8">Rayakan Hari Kemerdekaan Bersama</h3>
+                        <h3 className="lato-black text-white text-center text-4xl font-bold mb-8">Rayakan Hari Kemerdekaan Bersama</h3>
 
-                        <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="mx-auto text-white text-center text-sm
+                        <p className="lato-regular mx-auto text-white text-center text-sm
                                                                                         dp:w-[60%] lp:w-[80%] tb:w-[80%] mb:w-[100%]">
                             Hai, Minecrafter! Mari kita meriahkan perayaan hari Kemerdekaan Indonesia yang ke-79 tahun ini dengan kreativitas dan semangat juang! 
                             Kami mengundang kalian untuk berpartisipasi dalam acara Minecraft Bersatu 2024 untuk merayakan hari Kemerdekaan RI.</p>
 
-                        <button style={{ fontFamily: 'LatoRegular, sans-serif' }} 
-                                className='text-white text-center text-xs p-auto h-9 dp:w-[25%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
+                        <button className='lato-regular text-white text-center text-xs p-auto h-9 dp:w-[25%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
                                         mb:mx-auto block | mb-4 hover:text-white/40 focus:opacity-40 
                                         mt-14 transition-all duration-300'
                                 onClick={handleClick}
                         >
                             Ikuti acara
                         </button>
-                        <a style={{ fontFamily: 'LatoRegular, sans-serif' }} className='mx-auto block text-white text-center text-xs hover:text-red-300 focus:opacity-40' href="/about">Pelajari selengkapnya</a>
+                        <a className='lato-regular mx-auto block text-white text-center text-xs hover:text-red-300 focus:opacity-40' href="/about">Pelajari selengkapnya</a>
 
                     </div>
                     
@@ -185,7 +173,7 @@ const Home = () => {
 
                     <div className='h-auto py-14'>
 
-                        <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>In Collaboration With</h5>
+                        <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>In Collaboration With</h5>
                         <Marquee />
 
                     </div>
@@ -195,7 +183,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>Official Dev</h5>
+                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Official Dev</h5>
                             <div className='flex justify-center'>
 
                                 <div>
@@ -210,7 +198,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>Event Partner</h5>
+                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Event Partner</h5>
                             <div className='flex justify-center'>
 
                                 <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
@@ -235,7 +223,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
+                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
                             <div className='flex justify-center'>
 
                                 <div className='grid content-start justify-center gap-x-12 gap-y-14 grid-cols-3'>
@@ -260,7 +248,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 style={{ fontFamily: 'LatoRegular, sans-serif' }} className='text-white text-center text-xl font-bold mb-14'>Sponsored By</h5>
+                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Sponsored By</h5>
                             <div className='flex justify-center'>
 
                                 <div>
@@ -283,7 +271,7 @@ const Home = () => {
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
                     <div>
-                        <h3 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="text-white text-4xl font-bold ml-24 mb-8
+                        <h3 className="lato-black text-white text-4xl font-bold ml-24 mb-8
                                                                                         dp:ml-24 lp:ml-24 tb:ml-18 mb:ml-12">Arsip</h3>
                         <div className='flex justify-arround w-full py-4'>
                             <a style={{ fontFamily: 'LatoRegular, sans-serif' }} className='mx-auto block text-white text-center text-sm hover:text-red-300 focus:opacity-40' 
@@ -317,13 +305,14 @@ const Home = () => {
 
                     </div>
 
-                    <p style={{ fontFamily: 'LatoRegular, sans-serif' }} className="text-white text-center font-extralight text-xs">Proudly presented by &copy; Minecrafter Bersatu.</p>
+                    <p className="text-white text-center font-extralight text-xs">Proudly presented by &copy; Minecrafter Bersatu.</p>
 
             </footer>
 
 
-        </body>
+        </div>
     )
 }
 
 export default Home
+
