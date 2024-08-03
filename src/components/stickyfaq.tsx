@@ -38,7 +38,7 @@ const StickySection = () => {
 
 
     return (
-        <section className="w-full -mt-14 flex justify-around mx-auto gap-x-8
+        <section className="w-full -mt-28 flex justify-around mx-auto gap-x-8
                             dp:flex-row lp:flex-row tb:flex-col mb:flex-col
                             dp:px-14 lp:px-14 tb:px-14 mb:px-6 h-full">
             
@@ -61,7 +61,7 @@ const StickySection = () => {
                   )}
                 </Sticky>
 
-                <div className="w-full mx-auto mt-20 lp:hidden z-20 -mb-28">
+                <div className="w-full mx-auto mt-40 lp:hidden z-20 -mb-28">
                     <h3 className='text-white text-4xl font-bold w-auto'>Pertanyaan Umum</h3>
                     <p className="text-white text-sm font-normal text-start mt-4 w-auto">
                         Temukan jawaban yang mungkin ingin kamu ketahui terkait acara ini!
