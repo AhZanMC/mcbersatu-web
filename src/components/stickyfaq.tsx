@@ -68,7 +68,7 @@ const StickySection = () => {
                     </p>
                 </div>
 
-                <div className='lp:mt-42 mt-48 text-white/90 lp:ml-auto lp:mx-0 mx-auto
+                <div className='lp:mt-42 mt-40 text-white/90 lp:ml-auto lp:mx-0 mx-auto
                                 dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] h-auto mb-0 space-y-0'>
                     <ul uk-accordion="collapsible: false">
                         {accordionArray.map((item, index) => {

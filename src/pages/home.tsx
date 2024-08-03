@@ -132,7 +132,7 @@ const Home = () => {
                                     dp:justify-between lp:justify-between tb:justify-between mb:justify-center'>
 
                         <h3 className='lato-black text-white text-4xl font-bold mx-auto mb-8 
-                                                                                        dp:w-[20%] lp:w-[30%] tb:w-[30%] mb:w-[80%]'>Linimasa dan Susunan Acara</h3>
+                                        dp:w-[20%] lp:w-[20%] tb:w-[30%] mb:w-[70%]'>Linimasa dan Susunan Acara</h3>
 
                         <Tabs />
 
