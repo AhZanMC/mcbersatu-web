@@ -8,9 +8,9 @@ const StickySection = () => {
 
 
     return (
-        <section className="w-full -mt-10 flex justify-around mx-auto gap-x-8
+        <section className="w-full -mt-14 flex justify-around mx-auto gap-x-8
                             dp:flex-row lp:flex-row tb:flex-col mb:flex-col
-                            dp:px-14 lp:px-14 tb:px-14 mb:px-6 h-auto">
+                            dp:px-14 lp:px-14 tb:px-14 mb:px-6 h-full">
             
             <StickyContainer className="flex justify-around mx-auto gap-x-8
                             dp:flex-row lp:flex-row tb:flex-col mb:flex-col
@@ -22,7 +22,7 @@ const StickySection = () => {
                     style,
                   }) => (
                     // dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] mx-auto
-                    <header className="w-full mx-auto mt-20 lp:block hidden" style={style}>
+                    <header className="w-full mx-auto pt-40 lp:block hidden" style={style}>
                         <h3 className='text-white text-4xl font-bold w-96'>Pertanyaan Umum</h3>
                         <p className="text-white text-sm font-normal text-start mt-4 w-96">
                             Temukan jawaban yang mungkin ingin kamu ketahui terkait acara ini!
@@ -38,8 +38,8 @@ const StickySection = () => {
                     </p>
                 </div>
 
-                <div className='lp:mt-32 mt-40 text-white/90 lp:ml-auto lp:mx-0 mx-auto
-                                dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] h-auto'>
+                <div className='lp:mt-42 mt-48 text-white/90 lp:ml-auto lp:mx-0 mx-auto
+                                dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] h-auto mb-0 space-y-0'>
                     <ul uk-accordion="collapsible: false">
                         <li className='uk-open border-white border-b p-4'>
                             <a className="uk-accordion-title text-white font-semibold">Minecrafter Bersatu itu acara apa?</a>

@@ -62,7 +62,7 @@ const Help = () => {
 
 
                 {/* Section 3 */}
-                <section className='w-full h-full mt-40
+                <section className='w-full h-full pt-40
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
                     <div className="p-4 bg-[#871015]/70 h-auto flex justify-around items-center
                                     dp:flex-row lp:flex-row tb:flex-col mb:flex-col 
