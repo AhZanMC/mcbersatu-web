@@ -4,7 +4,7 @@ const Tabs: React.FC = () => {
   return (
     <div className='dp:w-[40%] lp:w-[40%] tb:w-[40%] mb:w-[90%] mt-4 mx-auto'>
         <ul  className="flex uk-child-width-expand text-white/70 text-base uk-tab" uk-tab="true" uk-switcher="animation: uk-animation-fade">
-            <li className="uk-active"><a href="#">1 Agustus 2024</a></li>
+            <li className="uk-active"><a href="#">5 Agustus 2024</a></li>
             <li><a href="#">24 Agustus 2024</a></li>
             <li><a href="#">25 Agustus 2024</a></li>
         </ul>
@@ -34,7 +34,7 @@ const Tabs: React.FC = () => {
                     <p className='text-white/70 w-[30%]'>16.10 - 17.10 WIB</p>
                     <div className='w-[90%]'>
                         <h5 className='text-white font-bold'>Perlombaan babak eliminasi dan penilaian karya</h5>
-                        <p className='text-white/70'>Peserta memainkan minigames untuk memenangkan babak eliminasi dan penilaian karya</p>
+                        <p className='text-white/70'>Peserta memainkan minigames untuk memenangkan babak eliminasi dan penilaian submisi hasil dari lomba karya</p>
                     </div>
                 </div>
                 <div className='flex gap-x-8 my-4 w-full'>

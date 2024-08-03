@@ -4,20 +4,18 @@ import Countdown from "../components/countdown"
 import Tabs from '../components/tabs'
 import Marquee from '../components/marquee'
 
-
-
 const Home = () => {
 
     //fungsi efek navbar
     const [scrolled, setScrolled] = useState(false);
 
     const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 0) {
-        setScrolled(true);
-    } else {
-        setScrolled(false);
-    }
+        const offset = window.scrollY;
+        if (offset > 0) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
     };
 
     useEffect(() => {
@@ -76,7 +74,7 @@ const Home = () => {
                                         bg-[#871015]/70 px-7 py-5 rounded-[30px]'>
 
                             <div className='dp:block lp:block tb:block mb:flex justify-between items-end text-white text-right right-0'>
-                                <p className='lato-regular text-3xl my-0 font-semibold'>Vol.2</p>
+                                <p style={{fontWeight: 'bold'}} className='lato-regular text-3xl my-0'>Vol. 2</p>
                                 <p className='text-base my-0'>24 Agustus 2024</p>
                             </div>
 
@@ -173,7 +171,7 @@ const Home = () => {
 
                     <div className='h-auto py-14'>
 
-                        <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>In Collaboration With</h5>
+                        <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>In Collaboration With</h5>
                         <Marquee />
 
                     </div>
@@ -183,7 +181,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Official Dev</h5>
+                            <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Official Dev</h5>
                             <div className='flex justify-center'>
 
                                 <div>
@@ -198,7 +196,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Event Partner</h5>
+                            <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Event Partner</h5>
                             <div className='flex justify-center'>
 
                                 <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
@@ -223,7 +221,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
+                            <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
                             <div className='flex justify-center'>
 
                                 <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
@@ -248,7 +246,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 className='lato-regular text-white text-center text-xl font-bold mb-14'>Sponsored By</h5>
+                            <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Sponsored By</h5>
                             <div className='flex justify-center'>
 
                                 <div>

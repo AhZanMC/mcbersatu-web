@@ -72,7 +72,7 @@ const About = () => {
                             Dalam rangka untuk memperingati hari bersejarah ini, Minecrafter Bersatu dipelopori sebagai cara untuk merayakan, 
                             sekaligus mempromosikan persatuan dan kesatuan di antara berbagai komunitas Minecraft yang ada di Indonesia.
                             <br></br><br></br>
-                            Minecrafter bersatu di inisiasi oleh komunitas MinecraftID dan Minecraft Sejati, dan diikutsertakan berbagai komunitas 
+                            Minecrafter Bersatu di inisiasi oleh komunitas MinecraftID dan Minecraft Sejati, dan diikutsertakan berbagai komunitas 
                             Minecraft dari seluruh Indonesia. Acara ini bertujuan untuk menciptakan kesempatan bagi para pemain untuk berinteraksi, 
                             berkolaborasi, berkompetisi, dan saling mengenal satu sama lain dalam suasana dirgahayu Republik Indonesia.
                             Minecrafter Bersatu pertama kali dilaksanakan pada tahun 2023, dimulai dari upacara pembukaan pada tanggal 
