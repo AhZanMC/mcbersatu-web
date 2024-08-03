@@ -189,7 +189,7 @@ const Home = () => {
 
                                 <div>
                                     <a href="https://s.id/HikaruStudioMedia" className="shrink-0 w-auto" uk-tooltip="title: Hikaru Studio; pos: bottom">
-                                        <img src={getImage('../../public/logos/partner', 'hikaru', 'png')} className="h-28 mx-12" />
+                                        <img src="/logos/partner/hikaru.png" className="h-28 mx-12" />
                                     </a>
                                 </div>
 
@@ -205,15 +205,15 @@ const Home = () => {
                                 <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
 
                                     <a href="https://www.instagram.com/sirkel.friendss/" className="shrink-0 w-auto" uk-tooltip="title: Sirkel Friends; pos: bottom">
-                                        <img src="./public/logos/partner/sirkelfren.png" className="h-28" />
+                                        <img src="/logos/partner/sirkelfren.png" className="h-28" />
                                     </a>
 
                                     <a href="https://invs.studio/" className="shrink-0 w-auto" uk-tooltip="title: Invious Visuals; pos: bottom">
-                                        <img src="./public/logos/partner/invious.png" className="h-28" />
+                                        <img src="/logos/partner/invious.png" className="h-28" />
                                     </a>
 
                                     <a href="https://www.instagram.com/dreamlightedu/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
-                                        <img src="./public/logos/partner/dreamlightedu.png" className="h-28" />
+                                        <img src="/logos/partner/dreamlightedu.png" className="h-28" />
                                     </a>
 
                                 </div>
@@ -230,15 +230,15 @@ const Home = () => {
                                 <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
                                     
                                     <a href="https://mcsejati.site/news" className="shrink-0 w-auto" uk-tooltip="title: Warta Minecraft; pos: bottom">
-                                        <img src="./public/logos/partner/wartamc.png" className="h-28" />
+                                        <img src="/logos/partner/wartamc.png" className="h-28" />
                                     </a>
 
                                     <a href="https://neoteric.eu.org/discord" className="shrink-0 w-auto" uk-tooltip="title: NTC Department; pos: bottom">
-                                        <img src="./public/logos/partner/neoteric.png" className="h-28" />
+                                        <img src="/logos/partner/neoteric.png" className="h-28" />
                                     </a>
 
                                     <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
-                                        <img src={getImage('../../public/logos', 'placeholder', 'png')} className="h-28" />
+                                        <img src="/logos/placeholder.png" className="h-28" />
                                     </a>
 
                                 </div>

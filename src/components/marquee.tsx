@@ -8,16 +8,16 @@ interface Image {
 }
 
 const images: Image[] = [
-  { src: 'public/logos/community/minecraftid.png', link: 'https://minecraft-id.net/', tooltip: 'MinecraftID' },
-  { src: 'public/logos/community/mcsejati.png', link: 'https://mcsejati.site/', tooltip: 'Minecraft Sejati' },
-  { src: 'public/logos/community/mci.png', link: 'https://discord.gg/minecraft-community-indonesia-728905506206384128', tooltip: 'Minecraft Community Indonesia' },
-  { src: 'public/logos/community/sahabatmc.png', link: 'https://sahabatmcid.my.id/', tooltip: 'Sahabat Minecrafter' },
-  { src: 'public/logos/community/chronoscraft.png', link: 'https://discord.com/invite/yRYrkwRm7d', tooltip: 'Chronoscraft Community' },
-  { src: 'public/logos/community/motionimemc.png', link: 'http://discord.gg/motionime', tooltip: 'MotionIme Minecraft' },
-  { src: 'public/logos/community/zanmcteam.png', link: 'https://discord.gg/XVKDBsSFFS', tooltip: 'ZanMcTeam' },
-  { src: 'public/logos/community/bdfm.png', link: 'https://bfdmcommunity.netlify.app/', tooltip: 'Bhycero Group' },
-  { src: 'public/logos/community/haven.png', link: 'https://discord.gg/hav3n', tooltip: 'Haven' },
-  { src: 'public/logos/community/mchubid.png', link: 'https://mchub.id/', tooltip: 'MCHub Indonesia' },
+  { src: 'logos/community/minecraftid.png', link: 'https://minecraft-id.net/', tooltip: 'MinecraftID' },
+  { src: 'logos/community/mcsejati.png', link: 'https://mcsejati.site/', tooltip: 'Minecraft Sejati' },
+  { src: 'logos/community/mci.png', link: 'https://discord.gg/minecraft-community-indonesia-728905506206384128', tooltip: 'Minecraft Community Indonesia' },
+  { src: 'logos/community/sahabatmc.png', link: 'https://sahabatmcid.my.id/', tooltip: 'Sahabat Minecrafter' },
+  { src: 'logos/community/chronoscraft.png', link: 'https://discord.com/invite/yRYrkwRm7d', tooltip: 'Chronoscraft Community' },
+  { src: 'logos/community/motionimemc.png', link: 'http://discord.gg/motionime', tooltip: 'MotionIme Minecraft' },
+  { src: 'logos/community/zanmcteam.png', link: 'https://discord.gg/XVKDBsSFFS', tooltip: 'ZanMcTeam' },
+  { src: 'logos/community/bdfm.png', link: 'https://bfdmcommunity.netlify.app/', tooltip: 'Bhycero Group' },
+  { src: 'logos/community/haven.png', link: 'https://discord.gg/hav3n', tooltip: 'Haven' },
+  { src: 'logos/community/mchubid.png', link: 'https://mchub.id/', tooltip: 'MCHub Indonesia' },
 ];
 
 
