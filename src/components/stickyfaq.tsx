@@ -24,7 +24,7 @@ const StickySection = () => {
                     // dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] mx-auto
                     <header className="w-full mx-auto mt-20 lp:block hidden" style={style}>
                         <h3 className='text-white text-4xl font-bold w-96'>Pertanyaan Umum</h3>
-                        <p className="text-white text-sm font-normal text-justify mt-4 w-96">
+                        <p className="text-white text-sm font-normal text-start mt-4 w-96">
                             Temukan jawaban yang mungkin ingin kamu ketahui terkait acara ini!
                         </p>
                     </header>
@@ -33,7 +33,7 @@ const StickySection = () => {
 
                 <div className="w-full mx-auto mt-20 lp:hidden z-20 -mb-28">
                     <h3 className='text-white text-4xl font-bold w-auto'>Pertanyaan Umum</h3>
-                    <p className="text-white text-sm font-normal text-justify mt-4 w-auto">
+                    <p className="text-white text-sm font-normal text-start mt-4 w-auto">
                         Temukan jawaban yang mungkin ingin kamu ketahui terkait acara ini!
                     </p>
                 </div>
