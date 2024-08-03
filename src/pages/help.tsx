@@ -50,7 +50,7 @@ const Help = () => {
                                     dp:pb-[45vh] lp:pb-[45vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                     style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
-                    <h1 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
+                    <h1 className="lato-black w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
                         BANTUAN MINECRAFTER BERSATU
                     </h1>
 
@@ -67,14 +67,13 @@ const Help = () => {
                     <div className="p-4 bg-[#871015]/70 h-auto flex justify-around items-center
                                     dp:flex-row lp:flex-row tb:flex-col mb:flex-col 
                                     border-[5px] border-t-[#790000] border-r-[#790000] border-b-[#ED1C24] border-l-[#ED1C24]">
-                        <h3 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="text-white text-4xl font-bold m-8 
-                            dp:text-start lp:text-start tb:text-center mb:text-center
-                            dp:w-[30%] lp:w-[40%] tb:w-[65%] mb:w-[100%]">
+                        <h3 className="lato-black text-white text-4xl font-bold m-8 
+                                        dp:text-start lp:text-start tb:text-center mb:text-center
+                                        dp:w-[30%] lp:w-[40%] tb:w-[65%] mb:w-[100%]">
                             Butuh Bantuan atau Menemukan Masalah?
                         </h3>
 
-                        <button style={{ fontFamily: 'LatoRegular, sans-serif' }} 
-                                className='text-white text-center text-xs p-auto h-9 dp:w-[20%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
+                        <button className='lato-regular text-white text-center text-xs p-auto h-9 dp:w-[20%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
                                     dp:mx-14 lp:mx-14 tb:mx-auto mb:mx-auto block dp:my-auto lp:my-auto tb:my-8 mb:my-8 hover:text-white/40 focus:opacity-40 
                                     transition-all duration-300'
                                 onClick={handleClick}>
@@ -109,4 +108,7 @@ const Help = () => {
 }
 
 export default Help;
+
+
+
 

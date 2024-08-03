@@ -42,31 +42,31 @@ const StickySection = () => {
                                 dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] h-auto'>
                     <ul uk-accordion="collapsible: false">
                         <li className='uk-open border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Minecrafter Bersatu itu acara apa?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Minecrafter Bersatu itu acara apa?</a>
                             <div className="uk-accordion-content text-sm">Minecrafter Bersatu adalah acara perayaan hari kemerdekaan Indonesia, yang dirancang khusus oleh gabungan berbagai komunitas Minecraft yang ada di Indonesia.</div>
                         </li>
                         <li className='border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Kapan dan dimana Minecraft Bersatu 2024 diadakan?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Kapan dan dimana Minecraft Bersatu 2024 diadakan?</a>
                             <div className="uk-accordion-content text-sm">Rangkaian dan jadwal acara akan diumumkan di sosial media @mcbersatu (Instagram dan Twitter/X) atau @mcbersatuid (TikTok). Pastikan kamu menyiapkan aplikasi Discord dan game Minecraftnya ya.. Karena acara ini diadakan secara online!</div>
                         </li>
                         <li className='border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Apakah acara ini terbuka untuk umum?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Apakah acara ini terbuka untuk umum?</a>
                             <div className="uk-accordion-content text-sm">Ya, acara ini terbuka untuk kamu yang bermain atau menyukai game Minecraft dan berdomisili di Indonesia serta berstatus sebagai Warga Negara Indonesia (WNI). Perlu diketahui bahwa, kamu juga merupakan seorang anggota di salah satu komunitas kolaborator kami, jika kamu belum menjadi anggota di salah satunya, kamu bisa bergabung terlebih dahulu kok!</div>
                         </li>
                         <li className='border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Bagaimana cara mengikuti acara ini?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Bagaimana cara mengikuti acara ini?</a>
                             <div className="uk-accordion-content text-sm">Kamu bisa mendaftar sebagai peserta dengan mengisi form yang dapat ditemukan melalui tombol “Ikuti acara” di halaman beranda website ini.</div>
                         </li>
                         <li className='border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Apakah acara ini berbayar untuk diikuti?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Apakah acara ini berbayar untuk diikuti?</a>
                             <div className="uk-accordion-content text-sm">Tentu saja tidak!! Acara ini pastinya GRATIS!!!</div>
                         </li>
                         <li className='border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Apa saja kegiatan yang akan dilakukan?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Apa saja kegiatan yang akan dilakukan?</a>
                             <div className="uk-accordion-content text-sm">Kamu dapat mengikuti kegiatan perlombaan minigames dan perlombaan karya berhadiah, serta juga terdapat server pameran. Penjelasan selengkapnya bisa dibaca di halaman “Panduan”</div>
                         </li>
                         <li className='border-white border-b p-4'>
-                            <a className="uk-accordion-title font-semibold">Edisi Minecraft apakah yang digunakan dalam acara ini?</a>
+                            <a className="uk-accordion-title text-white font-semibold">Edisi Minecraft apakah yang digunakan dalam acara ini?</a>
                             <div className="uk-accordion-content text-sm">Java? Bedrock? Kenapa tidak keduanya saja?! Ya, Java dan Bedrock bisa mengikuti acara ini, namun pastikan versi Minecraftmu yang terbaru ya!</div>
                         </li>
                     </ul>

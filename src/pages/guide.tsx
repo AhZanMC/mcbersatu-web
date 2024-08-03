@@ -49,7 +49,7 @@ const Guide = () => {
                                         dp:pb-[45vh] lp:pb-[45vh] tb:pb-[15vh] mb:pb-[5vh]' 
                                         style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
-                        <h1 style={{ fontFamily: 'LatoBlack, sans-serif' }} className="w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
+                        <h1 className="lato-black w-[20%] ml-[5%] text-white font-bold text-4xl text-left">
                             PANDUAN MINECRAFTER BERSATU
                         </h1>
 
@@ -146,3 +146,4 @@ const Guide = () => {
 }
 
 export default Guide
+

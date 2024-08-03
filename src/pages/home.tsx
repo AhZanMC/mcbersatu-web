@@ -77,7 +77,7 @@ const Home = () => {
                                         bg-[#871015]/70 px-7 py-5 rounded-[30px]'>
 
                             <div className='dp:block lp:block tb:block mb:flex justify-between items-end text-white text-right right-0'>
-                                <p className='lato-regular text-3xl my-0 font-bold'>Vol.2</p>
+                                <p className='lato-regular text-3xl my-0 font-semibold'>Vol.2</p>
                                 <p className='text-base my-0'>24 Agustus 2024</p>
                             </div>
 
@@ -115,7 +115,7 @@ const Home = () => {
                             className="w-full h-full object-cover shadow-[4px_3px_10px_3px_rgba(0,0,0,0.3)] opacity-70"
                         ></video>
                         <div
-                            className="minecraft-font absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-black text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
+                            className="minecraft-dungeons absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-normal text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
                         >
                             #MCBERSATU 2024
                         </div>
