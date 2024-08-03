@@ -254,7 +254,7 @@ const Home = () => {
 
                                 <div>
                                     <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
-                                        <img src="./public/logos/placeholder.png" className="h-28" />
+                                        <img src="/logos/placeholder.png" className="h-28" />
                                     </a>
                                 </div>
 
