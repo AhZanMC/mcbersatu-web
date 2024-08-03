@@ -42,7 +42,7 @@ const StickySection = () => {
                                 dp:w-[40%] lp:w-[40%] tb:w-[80%] mb:w-[100%] h-auto mb-0 space-y-0'>
                     <ul uk-accordion="collapsible: false">
                         <li className='uk-open border-white border-b p-4'>
-                            <a className="uk-accordion-title text-white font-semibold">Minecrafter Bersatu itu acara apa?</a>
+                            <a style={{color: 'white'}} className="uk-accordion-title text-white font-semibold">Minecrafter Bersatu itu acara apa?</a>
                             <div className="uk-accordion-content text-sm">Minecrafter Bersatu adalah acara perayaan hari kemerdekaan Indonesia, yang dirancang khusus oleh gabungan berbagai komunitas Minecraft yang ada di Indonesia.</div>
                         </li>
                         <li className='border-white border-b p-4'>
