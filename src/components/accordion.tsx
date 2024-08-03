@@ -1,11 +1,11 @@
 import { useState } from "react"
 
-interface AcordionProps {
+interface AccordionProps {
     title: string;
     content: string;
 }
 
-const Acordion: React.FC<AcordionProps> = ({ title, content }) => {
+const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
     const [titleColor, setTitlecolor] = useState<string>('white')
 
     const onTitleHover = (bool: boolean) => {
@@ -24,4 +24,6 @@ const Acordion: React.FC<AcordionProps> = ({ title, content }) => {
     )
 }
 
-export default Acordion
+export default Accordion
+
+
