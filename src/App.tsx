@@ -4,6 +4,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Guide from './pages/guide'
 import Help from './pages/help'
+import RedirectToHome from './components/redirecttohome'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/guide' element={<Guide />} />
         <Route path='/help' element={<Help />} />
+        <Route path="*" element={<RedirectToHome/>}/>
       </Routes>
   </Router>
   )
