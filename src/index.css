@@ -226,6 +226,7 @@
   body, html {
     overflow-x: hidden;
     scrollbar-width: none;
+    background-image: linear-gradient(to bottom left, #ED1C24 10%, #871015);
   }
 
   body::-webkit-scrollbar {
@@ -281,5 +282,3 @@
       color: #5494c5;
     }
 
-
-    
