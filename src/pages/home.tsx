@@ -231,7 +231,7 @@ const Home = () => {
                                     </a>
 
                                     <a href="https://www.instagram.com/dreamlightedu/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
-                                        <img src="/logos/partner/dreamlightedu.png" className="h-28 mx-auto" />
+                                        <img src="/logos/partner/dledu.png" className="h-28 mx-auto" />
                                     </a>
 
                                 </div>
