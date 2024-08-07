@@ -32,19 +32,20 @@ const Tabs: React.FC = () => {
                     </div>
                 </div>
                 <div className='flex gap-x-8 my-4 w-full'>
-                    <p className='text-white/80 w-[30%]'>16.10 - 17.10 WIB</p>
+                    <p className='text-white/80 w-[30%]'>16.10 WIB - Selesai</p>
                     <div className='w-[90%]'>
                         <h5 className='text-white font-bold text-lg'>Perlombaan babak eliminasi dan penilaian karya</h5>
-                        <p className='text-white/80'>Peserta memainkan minigames untuk memenangkan babak eliminasi dan penilaian submisi hasil dari lomba karya</p>
+                        <p className='text-white/80'>Peserta memainkan minigames untuk memenangkan babak eliminasi dan penilaian submisi 
+                                                        hasil dari lomba karya serta penentuan tim minigames yang lolos ke babak final</p>
                     </div>
                 </div>
-                <div className='flex gap-x-8 my-4 w-full'>
+                {/* <div className='flex gap-x-8 my-4 w-full'>
                     <p className='text-white/80 w-[30%]'>17.15 - 17.30 WIB</p>
                     <div className='w-[90%]'>
                         <h5 className='text-white font-bold text-lg'>Seleksi babak final</h5>
                         <p className='text-white/80'>Panitia melakukan seleksi terhadap peserta lomba minigames untuk melanjutkan babak final</p>
                     </div>
-                </div>
+                </div> */}
             </li>
 
             <li>
