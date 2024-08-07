@@ -15,7 +15,7 @@ const images: Image[] = [
   { src: 'logos/community/chronoscraft.png', link: 'https://discord.com/invite/yRYrkwRm7d', tooltip: 'Chronoscraft Community' },
   { src: 'logos/community/motionimemc.png', link: 'http://discord.gg/motionime', tooltip: 'MotionIme Minecraft' },
   { src: 'logos/community/zanmcteam.png', link: 'https://discord.gg/XVKDBsSFFS', tooltip: 'ZanMcTeam' },
-  { src: 'logos/community/bdfm.png', link: 'https://bfdmcommunity.netlify.app/', tooltip: 'Bhycero Group' },
+  { src: 'logos/community/bhycero.png', link: 'https://bfdmcommunity.netlify.app/', tooltip: 'Bhycero Group' },
   { src: 'logos/community/haven.png', link: 'https://discord.gg/hav3n', tooltip: 'Haven' },
   { src: 'logos/community/mchubid.png', link: 'https://mchub.id/', tooltip: 'MCHub Indonesia' },
 ];

@@ -26,7 +26,7 @@ const About = () => {
 
     
     return (
-        <div className="open-sans h-auto min-h-screen w-screen relative bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
+        <div className="open-sans h-auto min-h-screen w-screen relative bg-gradient-to-bl from-[#ED1C24] from-10% to-[#790000] overflow-x-hidden select-none">
             
             
             {/* Navbar */}

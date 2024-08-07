@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import NavMenu from "../components/navmenu"
-import Countdown from "../components/countdown"
 import Tabs from '../components/tabs'
 import Marquee from '../components/marquee'
 
@@ -25,14 +24,31 @@ const Home = () => {
     };
     }, []);
 
+    //fungsi efek parallax
+    const [scrollX, setScrollX] = useState(0);
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {   
+        const handleScroll = () => {
+        setScrollX(window.scrollY);
+        setScrollY(window.scrollY);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+        window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     //fungsi tombol link gform
     const handleClick = () => {
-        window.location.href = ''; //pasang link gform
+        window.open('https://forms.gle/SjtBpzxYCv2kgyH67', '_blank'); //pasang link gform
       };
 
     
     return (
-        <div className="open-sans h-auto w-screen bg-cover bg-scroll bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
+        <div className="open-sans h-auto w-screen bg-cover bg-scroll bg-gradient-to-bl from-[#ED1C24] from-10% to-[#790000] overflow-x-hidden select-none">
             
 
             {/* Navbar */}
@@ -50,42 +66,32 @@ const Home = () => {
 
                 {/* Section 1 */}
                 <section className='w-full h-full bg-left-top bg-no-repeat bg-cover
-                                    dp:px-14 lp:px-14 tb:px-14 mb:px-6 |
-                                    dp:pt-[65vh] lp:pt-[60vh] tb:pt-[55vh] mb:pt-[40vh] |
-                                    dp:pb-[25vh] lp:pb-[24vh] tb:pb-[15vh] mb:pb-[5vh]' 
+                                    dp:px-14 lp:px-14 tb:px-14 mb:px-6 pt-[30vh] pb-[30vh]' 
                                     style={{ backgroundImage: `url("/mcb-bg.png")` }}>
 
-                    <div className='flex justify-between dp:flex-row lp:flex-row tb:flex-col mb:flex-col align-center' uk-parallax="y: 0%, -100%">
+                    <div className='w-full flex flex-col items-center' style={{ transform: `translateY(${scrollY * -0.2}px)` }}>
 
-                        <div className='dp:w-[25%] lp:w-[35%] tb:w-[70%] mb:w-[70%] h-auto flex gap-8  
-                                    mb-[5vh] items-center'>
+                        <div className='w-auto h-auto mb-[5vh] items-center'>
 
-                            <img src="/mcb.png" alt="MCB-Logo" title='Minecrafter Bersatu' className='minecraft-five dp:block lp:block tb:block mb:hidden h-[60px] w-auto'/>
-                            
-                            <p className='text-white text-sm text-left text-pretty hyphens-auto'>
-                                Minecrafter Bersatu adalah acara kolaborasi antar komunitas Minecraft se-Indonesia!
-                                Acara ini diselenggarakan untuk merayakan hari kemerdekaan Republik Indonesia.
+                            <h1 className='minecraft-dungeons tracking-wide text-white text-5xl font-bold text-center leading-relaxed'>
+                                #MCBERSATU 2024
+                            </h1>
+
+                            <p className='lato-regular text-white mt-2 text-3xl font-semibold text-center'>
+                                Vol. 2
                             </p>
 
-                        </div>
+                            <h4 className='lato-regular text-white mt-10 text-3xl mx-auto text-center
+                                            dp:w-[70%] lp:w-[60%] tb:w-[80%] mb:w-[100%]'>
+                                IKUTI PERLOMBAAN MINECRAFT TERBESAR DALAM MERAYAKAN HUT KE 79 TAHUN RI !
+                            </h4>
 
-                        <div className='dp:w-[35%] lp:w-[45%] tb:w-[80%] mb:w-[100%] | 
-                                        h-auto | block | dp:mx-0 lp:mx-0 tb:mx-auto mb:mx-auto | 
-                                        bg-[#871015]/70 px-7 py-5 rounded-[30px]'>
-
-                            <div className='dp:block lp:block tb:block mb:flex justify-between items-end text-white text-right right-0'>
-                                <p style={{fontWeight: 'bold'}} className='lato-regular text-3xl my-0'>Vol. 2</p>
-                                <p className='text-base my-0'>24 Agustus 2024</p>
-                            </div>
-
-                            <Countdown targetDate={new Date('2024-08-24T15:45:00')} />
-                            
-                            <button className='lato-regular text-white text-center text-xs p-auto h-9 dp:w-[30%] lp:w-[30%] tb:w-[25%] mb:w-[50%] border border-white rounded-[30px] 
-                                            dp:mr-0 lp:mr-0 tb:mr-0 mb:mr-1/2 mb:mx-auto block | mb-4 hover:text-white/40 focus:opacity-40 
-                                            dp:-mt-4 lp:-mt-4 tb:-mt-4 mb:mt-0 shrink transition-all duration-300'
+                            <button className='minecraft-five text-[#ED1C24] text-center font-normal text-xl tracking-wider p-2 h-12 dp:w-[30%] lp:w-[35%] tb:w-[50%] mb:w-[80%] bg-white rounded-[30px] 
+                                            mx-auto block hover:bg-transparent hover:border-white hover:border hover:text-white focus:opacity-40 
+                                           mt-10 shrink transition-all duration-300' 
                                     onClick={handleClick}
                             >
-                                Ikuti acara
+                                Daftar Sekarang
                             </button>
 
                         </div>
@@ -99,22 +105,48 @@ const Home = () => {
                 <section className='relative w-full h-full mt-14
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
-                    <img src="/mcb-pattern.png" className='absolute z-10 scale-150 h-[25vh] object-cover 
-                                                            dp:-top-[18vh] lp:-top-[18vh] tb:-top-[18vh] mb:-top-[10vh]' 
-                                                uk-parallax="x: -40%, 10%" />
+                    <img src="/mcb-pattern.png" className='absolute -z-1 scale-150 h-[25vh] object-cover -left-[30vw]
+                                                            dp:-top-[30vh] lp:-top-[35vh] tb:-top-[35vh] mb:-top-[30vh]' 
+                                                style={{ transform: `translateX(${scrollX* 0.5}px)` }} />
                     
-                    <div className='relative w-full h-[70vh]'>
+                    <div className='mt-40 relative w-full 
+                                    dp:h-[70vh] lp:h-[70vh] tb:h-[120vh] mb:h-[120vh]'>
+
                         <video
                             src="/mcb-2023.mp4"
                             uk-video="autoplay: inview"
                             loop
                             muted
-                            className="w-full h-full object-cover shadow-[4px_3px_10px_3px_rgba(0,0,0,0.3)] opacity-70"
+                            className="w-full h-full object-cover shadow-[4px_3px_10px_3px_rgba(0,0,0,0.3)] opacity-30"
                         ></video>
+
                         <div
-                            className="minecraft-dungeons absolute w-full h-full inset-0 flex justify-center items-center text-white text-4xl font-normal text-center bg-gradient-to-bl from-[#D91A21] from-[15%]"
+                            className="absolute w-full h-full inset-0 justify-center items-center text-white text-4xl bg-gradient-to-bl from-[#D91A21] from-[25%]
+                                        dp:flex lp:flex tb:block mb:block dp:p-[3%] lp:p-[3%] tb:p-[10%] mb:p-[10%]"
                         >
-                            #MCBERSATU 2024
+                            <div className='relative dp:w-[35%] lp:w-[40%] tb:w-[80%] mb:w-[100%]
+                                            dp:h-full lp:h-full tb:h-[28%] mb:h-[25%]'>
+
+                                <h3 className='lato-black text-white text-4xl font-bold mx-auto
+                                                dp:mx-auto lp:mx-auto tb:mx-0 mb:mx-auto
+                                                dp:w-[80%] lp:w-[80%] tb:w-[80%] mb:w-[100%]
+                                                dp:mb-20 lp:mb-20 tb:mb-8 mb:mb-8 '>Linimasa dan Susunan Acara</h3>
+
+                                <div className='w-[80%] h-auto flex gap-8 items-center absolute bottom-0 left-0'>
+
+                                    <img src="/mcb.png" alt="MCB-Logo" title='Minecrafter Bersatu' className='minecraft-five dp:block lp:block tb:hidden mb:hidden h-[60px] w-auto'/>
+                                    
+                                    <p className='text-white text-xs text-left text-pretty hyphens-auto'>
+                                        Minecrafter Bersatu adalah acara kolaborasi antar komunitas Minecraft se-Indonesia!
+                                        Acara ini diselenggarakan untuk merayakan hari kemerdekaan Republik Indonesia.
+                                    </p>
+                                    
+                                </div>
+
+                            </div>
+                            
+                            <Tabs />
+
                         </div>
                     </div>
 
@@ -122,24 +154,7 @@ const Home = () => {
 
 
                 {/* Section 3 */}
-                <section className='w-full h-full mt-14
-                                    dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
-
-                    <div className='flex dp:flex-row lp:flex-row tb:flex-row mb:flex-col py-14
-                                    dp:justify-between lp:justify-between tb:justify-between mb:justify-center'>
-
-                        <h3 className='lato-black text-white text-4xl font-bold mx-auto mb-8 
-                                        dp:w-[20%] lp:w-[20%] tb:w-[30%] mb:w-[70%]'>Linimasa dan Susunan Acara</h3>
-
-                        <Tabs />
-
-                    </div>
-    
-                </section>
-
-
-                {/* Section 4 */}
-                <section className='w-full h-full mt-14
+                <section className='w-full h-full mt-20
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
                     <div className="uk-card uk-card-body items-center bg-[#871015]/70 h-auto 
                                     border-[5px] border-t-[#790000] border-r-[#790000] border-b-[#ED1C24] border-l-[#ED1C24]">
@@ -151,12 +166,12 @@ const Home = () => {
                             Hai, Minecrafter! Mari kita meriahkan perayaan hari Kemerdekaan Indonesia yang ke-79 tahun ini dengan kreativitas dan semangat juang! 
                             Kami mengundang kalian untuk berpartisipasi dalam acara Minecraft Bersatu 2024 untuk merayakan hari Kemerdekaan RI.</p>
 
-                        <button className='lato-regular text-white text-center text-xs p-auto h-9 dp:w-[25%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
+                        <button className='lato-regular text-white text-center text-base p-auto h-10 dp:w-[25%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
                                         mb:mx-auto block | mb-4 hover:text-white/40 focus:opacity-40 
                                         mt-14 transition-all duration-300'
                                 onClick={handleClick}
                         >
-                            Ikuti acara
+                            Daftar Sekarang
                         </button>
                         <a className='lato-regular mx-auto block text-white text-center text-xs hover:text-red-300 focus:opacity-40' href="/about">Pelajari selengkapnya</a>
 
@@ -165,7 +180,7 @@ const Home = () => {
                 </section>
 
 
-                {/* Section 5 */}
+                {/* Section 4 */}
                 <section className='w-full h-full mt-14
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
@@ -184,10 +199,16 @@ const Home = () => {
                             <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Official Dev</h5>
                             <div className='flex justify-center'>
 
-                                <div>
+                                <div className='grid content-start justify-between gap-x-20 gap-y-14 grid-cols-2'>
+
                                     <a href="https://s.id/HikaruStudioMedia" className="shrink-0 w-auto" uk-tooltip="title: Hikaru Studio; pos: bottom">
-                                        <img src="/logos/partner/hikaru.png" className="h-28 mx-12" />
+                                        <img src="/logos/partner/hikaru.png" className="h-28 mx-auto" />
                                     </a>
+
+                                    <a href="https://discord.gg/ud5VJubg2N" className="shrink-0 w-auto" uk-tooltip="title: YueMi Development; pos: bottom">
+                                        <img src="/logos/partner/yuemidev.png" className="h-28 mx-auto" />
+                                    </a>
+
                                 </div>
 
                             </div>
@@ -202,15 +223,15 @@ const Home = () => {
                                 <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
 
                                     <a href="https://www.instagram.com/sirkel.friendss/" className="shrink-0 w-auto" uk-tooltip="title: Sirkel Friends; pos: bottom">
-                                        <img src="/logos/partner/sirkelfren.png" className="h-28" />
+                                        <img src="/logos/partner/sirkelfren.png" className="h-28 mx-auto" />
                                     </a>
 
                                     <a href="https://invs.studio/" className="shrink-0 w-auto" uk-tooltip="title: Invious Visuals; pos: bottom">
-                                        <img src="/logos/partner/invious.png" className="h-28" />
+                                        <img src="/logos/partner/invious.png" className="h-28 mx-auto" />
                                     </a>
 
                                     <a href="https://www.instagram.com/dreamlightedu/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
-                                        <img src="/logos/partner/dreamlightedu.png" className="h-28" />
+                                        <img src="/logos/partner/dreamlightedu.png" className="h-28 mx-auto" />
                                     </a>
 
                                 </div>
@@ -227,11 +248,11 @@ const Home = () => {
                                 <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-2'>
                                     
                                     <a href="https://mcsejati.site/news" className="shrink-0 w-auto" uk-tooltip="title: Warta Minecraft; pos: bottom">
-                                        <img src="/logos/partner/wartamc.png" className="h-28" />
+                                        <img src="/logos/partner/wartamc.png" className="h-28 mx-auto" />
                                     </a>
 
                                     <a href="https://neoteric.eu.org/discord" className="shrink-0 w-auto" uk-tooltip="title: NTC Department; pos: bottom">
-                                        <img src="/logos/partner/neoteric.png" className="h-28" />
+                                        <img src="/logos/partner/neoteric.png" className="h-28 mx-auto" />
                                     </a>
 
                                 </div>
@@ -246,8 +267,8 @@ const Home = () => {
                             <div className='flex justify-center'>
 
                                 <div>
-                                    <a href="" className="shrink-0 w-auto" uk-tooltip="title: Placeholder; pos: bottom">
-                                        <img src="/logos/placeholder.png" className="h-28" />
+                                    <a href="https://www.lenovo.com/" className="shrink-0 w-auto" uk-tooltip="title: Lenovo; pos: bottom">
+                                        <img src="/logos/sponsor/lenovo.png" className="h-28 mx-auto" />
                                     </a>
                                 </div>
 
@@ -260,7 +281,7 @@ const Home = () => {
                 </section>
 
 
-                {/* Section 6 */}
+                {/* Section 5 */}
                 <section className='w-full h-full mt-32
                                     dp:px-14 lp:px-14 tb:px-14 mb:px-6'>
 
@@ -309,4 +330,3 @@ const Home = () => {
 }
 
 export default Home
-

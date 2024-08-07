@@ -23,11 +23,11 @@ const Help = () => {
     }, []);
 
     const handleClick = () => {
-        window.location.href = ''; // pasang link tiket discord
+        window.location.href = 'mailto:minecrafterbersatu@gmail.com?subject=Bantuan%20Minecrafter%20Bersatu'; // pasang link email
     };
 
     return (
-        <div className="open-sans h-auto min-h-screen w-screen relative bg-gradient-to-bl from-[#ED1C24] from-10% to-[#871015] overflow-x-hidden select-none">
+        <div className="open-sans h-auto min-h-screen w-screen relative bg-gradient-to-bl from-[#ED1C24] from-10% to-[#790000] overflow-x-hidden select-none">
             
 
             {/* Navbar */}
@@ -73,7 +73,7 @@ const Help = () => {
                             Butuh Bantuan atau Menemukan Masalah?
                         </h3>
 
-                        <button className='lato-regular text-white text-center text-xs p-auto h-9 dp:w-[20%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
+                        <button className='lato-regular text-white text-center text-base p-auto h-10 dp:w-[20%] lp:w-[25%] tb:w-[40%] mb:w-[70%] border border-white rounded-[10px] 
                                     dp:mx-14 lp:mx-14 tb:mx-auto mb:mx-auto block dp:my-auto lp:my-auto tb:my-8 mb:my-8 hover:text-white/40 focus:opacity-40 
                                     transition-all duration-300'
                                 onClick={handleClick}>

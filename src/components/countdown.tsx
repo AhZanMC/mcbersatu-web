@@ -67,16 +67,11 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
 
     return (
-        <div className='dp:w-[60%] lp:w-[60%] tb:w-[80%] mb:w-[100%] | 
-                        dp:my-0 lp:my-0 tb:my-0 mb:my-6 | 
-                        dp:ml-0 lp:ml-0 tb:ml-8 mb:ml-0 | 
-                        dp:mx-0 lp:mx-0 tb:mx-0 mb:mx-auto | 
-                        dp:-mt-10 lp:-mt-10 tb:-mt-10 | 
-                        dp:mb-2 lp:mb-2 tb:mb-2 | '>
+        <div className='w-[100%] flex flex-col mx-auto'>
 
-            <p className='text-white text-sm dp:ml-0 lp:ml-0 tb:ml-0 mb:ml-[10%] lato-regular'>Memulai dalam...</p>
+            <p className='text-white text-sm dp:ml-[18%] lp:ml-[10%] tb:ml-[20%] mb:ml-[10%] lato-regular'>Memulai dalam...</p>
 
-            <div className="flex shrink gap-x-[3%] space-x-0 mx-4 my-4 text-white items-center align-center dp:justify-start lp:justify-start tb:justify-start mb:justify-center">
+            <div className="flex shrink gap-x-[3%] space-x-0 mx-4 my-4 text-white items-center align-center justify-center">
 
                         <div className='flex flex-col justify-center items-center'>
                             <p className='droid-sans mb-1 text-5xl uk-countdown-days'>{timeLeft.days}</p>
