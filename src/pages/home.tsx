@@ -110,7 +110,7 @@ const Home = () => {
                                                 style={{ transform: `translateX(${scrollX* 0.5}px)` }} />
                     
                     <div className='mt-40 relative w-full 
-                                    dp:h-[70vh] lp:h-[70vh] tb:h-[120vh] mb:h-[120vh]'>
+                                    dp:h-[70vh] lp:h-[70vh] tb:h-[70vh] mb:h-[108vh]'>
 
                         <video
                             src="/mcb-2023.mp4"
@@ -231,7 +231,7 @@ const Home = () => {
                                     </a>
 
                                     <a href="https://www.instagram.com/dreamlightedu/" className="shrink-0 w-auto" uk-tooltip="title: Dreamlight Education; pos: bottom">
-                                        <img src="/logos/partner/dledu.png" className="h-28 mx-auto" />
+                                        <img src="/logos/partner/dreamlightedu.png" className="h-28 mx-auto" />
                                     </a>
 
                                 </div>
