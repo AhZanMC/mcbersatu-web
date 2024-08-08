@@ -110,7 +110,7 @@ const Home = () => {
                                                 style={{ transform: `translateX(${scrollX* 0.5}px)` }} />
                     
                     <div className='mt-40 relative w-full 
-                                    dp:h-[70vh] lp:h-[70vh] tb:h-[70vh] mb:h-[108vh]'>
+                                    dp:h-[70vh] lp:h-[70vh] tb:h-[70vh] mb:h-[100vh]'>
 
                         <video
                             src="/mcb-2023.mp4"
