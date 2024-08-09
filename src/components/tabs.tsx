@@ -3,7 +3,7 @@ import React from 'react';
 const Tabs: React.FC = () => {
   return (
     <div className='dp:w-[50%] lp:w-[50%] tb:w-[80%] mb:w-[100%] 
-                    dp:mt-0 lp:mt-0 tb:mt-14 mb:mt-14 mx-auto'>
+                    dp:mt-0 lp:mt-0 tb:mt-20 mb:mt-20 mx-auto'>
         <ul className="flex uk-child-width-expand text-white/70 text-base uk-tab" uk-tab="true" uk-switcher="animation: uk-animation-fade">
             <li className="uk-active"><a style={{color: "white"}} href="#">7 Agustus 2024</a></li>
             <li><a style={{color: "white"}} href="#">24 Agustus 2024</a></li>

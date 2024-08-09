@@ -130,9 +130,10 @@ const Home = () => {
                                 <h3 className='lato-black text-white text-4xl font-bold mx-auto
                                                 dp:mx-auto lp:mx-auto tb:mx-0 mb:mx-auto
                                                 dp:w-[80%] lp:w-[80%] tb:w-[80%] mb:w-[100%]
-                                                dp:mb-20 lp:mb-20 tb:mb-8 mb:mb-8 '>Linimasa dan Susunan Acara</h3>
+                                                dp:mb-20 lp:mb-20 tb:mb-6 mb:mb-6 '>Linimasa dan Susunan Acara</h3>
 
-                                <div className='w-[80%] h-auto flex gap-8 items-center absolute bottom-0 left-0'>
+                                <div className='w-[80%] h-auto flex gap-8 items-center bottom-0 left-0
+                                                dp:absolute lp:absolute tb:static mb:static'>
 
                                     <img src="/mcb.png" alt="MCB-Logo" title='Minecrafter Bersatu' className='minecraft-five dp:block lp:block tb:hidden mb:hidden h-[60px] w-auto'/>
                                     
