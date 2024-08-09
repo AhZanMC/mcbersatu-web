@@ -20,7 +20,7 @@ const StickySection = () => {
         },
         {
             title: 'Bagaimana cara mengikuti acara ini?',
-            content: 'Kamu bisa mendaftar sebagai peserta dengan mengisi form yang dapat ditemukan melalui tombol “Ikuti acara” di halaman beranda website ini.'
+            content: 'Kamu bisa mendaftar sebagai peserta dengan mengisi form yang dapat ditemukan melalui tombol “Daftar Sekarang” di halaman beranda website ini.'
         },
         {
             title: 'Apakah acara ini berbayar untuk diikuti?',
