@@ -82,7 +82,7 @@ const Home = () => {
                             </p>
 
                             <h4 className='lato-regular text-white mt-10 text-3xl mx-auto text-center
-                                            dp:w-[70%] lp:w-[60%] tb:w-[80%] mb:w-[100%]'>
+                                            dp:w-[70%] lp:w-[60%] tb:w-[80%] mb:w-[90%]'>
                                 IKUTI PERLOMBAAN MINECRAFT TERBESAR DALAM MERAYAKAN HUT KE 79 TAHUN RI !
                             </h4>
 
