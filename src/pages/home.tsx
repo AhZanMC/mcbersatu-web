@@ -83,7 +83,7 @@ const Home = () => {
 
                             <h4 className='lato-regular text-white mt-10 text-3xl mx-auto text-center
                                             dp:w-[70%] lp:w-[60%] tb:w-[80%] mb:w-[90%]'>
-                                IKUTI PERLOMBAAN MINECRAFT TERBESAR DALAM MERAYAKAN HUT KE 79 TAHUN RI !
+                                IKUTI PERLOMBAAN MINECRAFT TERBESAR DALAM MERAYAKAN HUT KE 79 TAHUN RI !    
                             </h4>
 
                             <button className='minecraft-five text-[#ED1C24] text-center font-normal text-xl tracking-wider p-2 h-12 dp:w-[30%] lp:w-[35%] tb:w-[50%] mb:w-[80%] bg-white rounded-[30px] 
@@ -197,7 +197,7 @@ const Home = () => {
 
                         <div>
 
-                            <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Official Dev</h5>
+                            <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Official Developer</h5>
                             <div className='flex justify-center'>
 
                                 <div className='grid content-start justify-between gap-x-20 gap-y-14 grid-cols-2'>
