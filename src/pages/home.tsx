@@ -246,7 +246,7 @@ const Home = () => {
                             <h5 style={{fontWeight: 'bold'}} className='lato-regular text-white text-center text-xl font-bold mb-14'>Media Partner</h5>
                             <div className='flex justify-center'>
 
-                                <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-2'>
+                                <div className='grid content-start justify-between gap-x-12 gap-y-14 grid-cols-3'>
                                     
                                     <a href="https://mcsejati.site/news" className="shrink-0 w-auto" uk-tooltip="title: Warta Minecraft; pos: bottom">
                                         <img src="/logos/partner/wartamc.png" className="h-28 mx-auto" />
@@ -254,6 +254,10 @@ const Home = () => {
 
                                     <a href="https://neoteric.eu.org/discord" className="shrink-0 w-auto" uk-tooltip="title: NTC Department; pos: bottom">
                                         <img src="/logos/partner/neoteric.png" className="h-28 mx-auto" />
+                                    </a>
+
+                                    <a href="https://www.instagram.com/wiseline.id/" className="shrink-0 w-auto" uk-tooltip="title: Wiseline; pos: bottom">
+                                        <img src="/logos/partner/wiseline.png" className="h-28 mx-auto" />
                                     </a>
 
                                 </div>
