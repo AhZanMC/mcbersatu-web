@@ -43,7 +43,8 @@ const Home = () => {
 
     //fungsi tombol link gform
     const handleClick = () => {
-        window.open('https://forms.gle/SjtBpzxYCv2kgyH67', '_blank'); //pasang link gform
+        // window.open('https://forms.gle/SjtBpzxYCv2kgyH67', '_blank'); //pasang link gform
+        alert('Perlombaan sedang berlangsung')
       };
 
     
