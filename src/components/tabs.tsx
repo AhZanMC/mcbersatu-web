@@ -43,21 +43,21 @@ const Tabs: React.FC = () => {
 
             <li>
                 <div className='flex gap-x-8 my-4 w-full'>
-                    <p className='text-white/80 w-[30%]'>13.00 - 13.15 WIB</p>
+                    <p className='text-white/80 w-[30%]'>14.00 - 14.15 WIB</p>
                     <div className='w-[90%]'>
                         <h5 className='text-white font-bold text-lg'>Upacara Pembukaan final</h5>
                         <p className='text-white/80'>Memulai babak final dengan upacara untuk disiarkan langsung</p>
                     </div>
                 </div>
                 <div className='flex gap-x-8 my-4 w-full'>
-                    <p className='text-white/80 w-[30%]'>13.30 - 15.00 WIB</p>
+                    <p className='text-white/80 w-[30%]'>14.30 - 16.00 WIB</p>
                     <div className='w-[90%]'>
                         <h5 className='text-white font-bold text-lg'>Perlombaan babak final</h5>
                         <p className='text-white/80'>Peserta memainkan minigames untuk memenangkan babak final</p>
                     </div>
                 </div>
                 <div className='flex gap-x-8 my-4 w-full'>
-                    <p className='text-white/80 w-[30%]'> 15.00 WIB - Selesai</p>
+                    <p className='text-white/80 w-[30%]'> 16.00 WIB - Selesai</p>
                     <div className='w-[90%]'>
                         <h5 className='text-white font-bold text-lg'>Penutupan, & After party</h5>
                         <p className='text-white/80'>Acara ditutup dengan pengumuman pemenang lomba minigames dan lomba karya diakhiri dengan hiburan</p>
