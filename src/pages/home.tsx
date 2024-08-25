@@ -43,8 +43,8 @@ const Home = () => {
 
     //fungsi tombol link gform
     const handleClick = () => {
-        // window.open('https://forms.gle/SjtBpzxYCv2kgyH67', '_blank'); //pasang link gform
-        alert('Perlombaan sedang berlangsung')
+        window.open('https://youtube.com/live/efN5g1wQBsg?feature=share', '_blank'); //pasang link gform
+        // alert('Perlombaan sedang berlangsung')
       };
 
     
@@ -92,7 +92,7 @@ const Home = () => {
                                            mt-10 shrink transition-all duration-300' 
                                     onClick={handleClick}
                             >
-                                Daftar Sekarang
+                                Saksikan Sekarang
                             </button>
 
                         </div>
@@ -173,7 +173,7 @@ const Home = () => {
                                         mt-14 transition-all duration-300'
                                 onClick={handleClick}
                         >
-                            Daftar Sekarang
+                            Saksikan Sekarang
                         </button>
                         <a className='lato-regular mx-auto block text-white text-center text-xs hover:text-red-300 focus:opacity-40' href="/about">Pelajari selengkapnya</a>
 

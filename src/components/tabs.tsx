@@ -6,8 +6,8 @@ const Tabs: React.FC = () => {
                     dp:mt-0 lp:mt-0 tb:mt-20 mb:mt-20 mx-auto'>
         <ul className="flex uk-child-width-expand text-white/70 text-base uk-tab" uk-tab="true" uk-switcher="animation: uk-animation-fade">
             <li><a style={{color: "white"}} href="#">7 Agustus 2024</a></li>
-            <li className="uk-active"><a style={{color: "white"}} href="#">24 Agustus 2024</a></li>
-            <li><a style={{color: "white"}} href="#">25 Agustus 2024</a></li>
+            <li><a style={{color: "white"}} href="#">24 Agustus 2024</a></li>
+            <li className="uk-active"><a style={{color: "white"}} href="#">25 Agustus 2024</a></li>
         </ul>
 
         {/* tab content */}
