@@ -1,6 +1,10 @@
 
 # mcbersatu-web
+
 Program aplikasi situs web resmi Minecrafter Bersatu
+
+Ini adalah project tim web dev mcbersatu
+
 =======
 # React + TypeScript + Vite
 
